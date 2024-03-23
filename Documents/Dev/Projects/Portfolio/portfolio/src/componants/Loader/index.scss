@@ -1,0 +1,19 @@
+@import '../../animations/animation.scss';
+
+.loader-container {
+    background-color: #270D8E;
+    height: 100vh;
+    width: 100%;
+    animation: load-screen;
+    animation-duration: 2000ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+        height: 250px;
+    }
+}

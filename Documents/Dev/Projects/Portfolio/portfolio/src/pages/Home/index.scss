@@ -1,0 +1,135 @@
+@import '../../animations/animation.scss';
+
+.main-container{
+    height: 90vh;
+    padding: 0 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+
+    h1{
+        font-size: 54px;
+        font-weight: 400;
+        // color: #01363C;
+        color: black;
+        margin: 10px 0;
+    }
+    .first{
+        animation: text-reveal;
+        animation-duration: 1800ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-out;
+        animation-delay: 2000ms;
+        
+    }
+    .second{
+        animation: text-reveal;
+        animation-duration: 1800ms;
+        animation-delay: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-out;
+    }
+    span{
+        font-weight: 700;
+    }
+    button{
+        background-color: #DEDEFF     ;
+        padding: 20px 35px;
+        border-radius: 50px;
+        border: none;
+        font-size: 18px;
+        font-family: syne;
+        text-transform: uppercase;
+        width: 28%;
+        margin: 50px 0 80px 0;
+        color: black;
+        animation: animate-pop;
+        animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+        animation-duration: 300ms;
+        animation-delay: 5000ms;
+        animation-fill-mode: backwards;
+    }
+}
+
+h2 {
+    font-size: 50px;
+    color: black;
+    min-width: 350px;
+    line-height: 60px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.glass-overlay{
+    background-color: rgb(235, 240, 240 , 50%);
+    border-radius: 80px;
+    padding: 50px 100px;
+    box-shadow: 6px 3px 48px -15px rgba(66, 75, 90, 0.3);
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+
+    .card-wrapper {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        margin: 0 40px;
+
+    }
+}
+.about-container {
+    padding: 150px 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    .img-box{
+        background-color: grey;
+        display: flex;
+        height: 300px;
+        width: 1400px;
+        border-radius: 20px;
+    }
+    p {
+        font-size: 20px;
+        margin-top: 40px;
+        line-height: 30px;
+    }
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        &-container{
+        display: flex;
+        flex-direction: column;
+        padding: 80px 0 140px 0;
+        justify-content: space-between;
+        gap: 80px;
+            .skills-card{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 20px;
+                background-color: rgb(235, 240, 240 , 50%);
+                box-shadow: 6px 3px 48px -15px rgba(66, 75, 90, 0.3);
+                border-radius: 25px;
+                gap: 50px;
+                padding: 10px 30px;
+                img {
+                    height: 100px;
+                }
+                h4{
+                    font-size: 22px;
+                    width: 10%;
+                }
+                p{
+                    width: 40%;
+                }
+                ul{
+                    width: 20%;
+                }
+            }
+        }
+}

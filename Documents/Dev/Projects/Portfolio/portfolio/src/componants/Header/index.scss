@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: black;
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    a {
+        text-transform: uppercase;
+    }
+    .special-nav{
+        background-color: #DEDEFF  ;
+        padding: 10px 25px;
+        border-radius: 50px;
+    }
+    svg {
+        height: 60px;
+        width: fit-content;
+        padding: 20px;
+    }
+}

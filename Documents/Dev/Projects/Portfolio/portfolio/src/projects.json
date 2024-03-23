@@ -1,0 +1,38 @@
+ [
+        {
+            "id": 1,
+            "title": "Jennings Chimney Sweeping",
+            "cover": "/assets/Project covers/JCSHomeCover.png",
+            "description": "Description of project",
+            "color": "#f5b5b5",
+            "bg": "/assets/Project covers/JCSbg.png"
+        },
+        {
+            "id": 2,
+            "title": "Oh My Food",
+            "cover": "/assets/Project covers/OMFHomeCover.png",
+            "description": "Description of project",
+            "color": "#EAD5EF"
+        },
+        {
+            "id": 3,
+            "title": "Sophie Bluel Portfolio",
+            "cover": "/assets/Project covers/SophieBluelHome.png",
+            "description": "Description of project",
+            "color": "#d9baa9"
+        },
+        {
+            "id": 4,
+            "title": "Bivo",
+            "cover": "/assets/Project covers/BivoHome.png",
+            "description": "Description of project",
+            "color": "#afdece"
+        },
+        {
+            "id": 5,
+            "title": "Kasa",
+            "cover": "/assets/Project covers/KasaHome.png",
+            "description": "Description of project",
+            "color": "#f7c2b5"
+        }
+    ]
