@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: black;
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    a {
+        text-transform: uppercase;
+        color: black;
+        text-decoration: none;
+        transition: color 400ms ease;
+        &:hover {
+            color: #a984cf;
+            cursor: pointer;
+        }
+    }
+    .special-nav{
+        background-color: #DEDEFF  ;
+        padding: 10px 25px;
+        border-radius: 50px;
+        transition: box-shadow 400ms cubic-bezier(.18,.97,.53,1);
+            &:hover {
+                background: linear-gradient(133deg, rgba(222,222,255,1) 35%, rgba(148,241,246,1) 100%);
+                box-shadow: 2px 3px 20px 3px rgba(66, 68, 90, 0.14);
+                color: black;
+            }
+    }
+    svg {
+        height: 60px;
+        width: fit-content;
+        padding: 20px;
+    }
+}

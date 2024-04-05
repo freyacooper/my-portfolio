@@ -1,0 +1,29 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    h1 {
+        font-size: 50px;
+        margin: 10px;
+    }
+    .tagline {
+        // color: #9853A9;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .intro {
+        display: flex;
+        padding: 100px 180px;
+        gap: 100px;
+        img {
+            height: 500px;
+            box-shadow: 5px 2px 50px 0px rgba(83, 86, 113, 0.28);
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}

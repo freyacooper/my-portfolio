@@ -1,0 +1,50 @@
+ [
+        {
+            "id": 1,
+            "title": "Jennings Chimney Sweeping",
+            "cover": "/assets/Project covers/JCSHomeCover.png",
+            "tagline": "short sentence",
+            "description": ["Description of project"],
+            "color": "#f5b5b5",
+            "darkercolor": "#BF3737",
+            "bg": "/assets/Project covers/JCSbg.png",
+            "url": "jennings-chimney-sweeping"
+        },
+        {
+            "id": 2,
+            "title": "Oh My Food",
+            "cover": "/assets/Project covers/OMFHomeCover.png",
+            "description": ["Pour le projet Oh My Food, j'ai eu le privilège de collaborer avec une jeune startup ambitieuse dans le domaine de la restauration. Leur objectif était clair : conquérir le marché parisien en offrant une expérience culinaire innovante.", "Mon rôle consistait à développer un prototype d'un site web 'mobile first' qui permettrait aux clients de composer leur propre menu et de réserver leur repas dans des restaurants gastronomiques sélectionnés. En travaillant avec les maquettes fournis par le graphiste, j'ai pu créer une première version du site interactive, en assurant une expérience utilisateur fluide et intuitive sur toutes les plateformes, que ce soit sur desktop, mobile ou tablette. De plus, j'ai intégré avec précision les animations CSS spécifiées dans les maquettes, ajoutant une touche de dynamisme à l'ensemble du site.", "Ce projet a été une formidable opportunité de mettre en pratique mes compétences en développement web tout en contribuant à la croissance d'une entreprise prometteuse."],
+            "tagline": "Site web mobile-first, menus personnalisés, animations CSS",
+            "color": "#EAD5EF",
+            "darkercolor": "#9853A9",
+            "url": "oh-my-food"
+        },
+        {
+            "id": 3,
+            "title": "Sophie Bluel Portfolio",
+            "cover": "/assets/Project covers/SophieBluelHome.png",
+            "description": "Description of project",
+            "tagline": "short sentence",
+            "color": "#d9baa9",
+            "url": "sophie-bluel-porfolio"
+        },
+        {
+            "id": 4,
+            "title": "Bivo",
+            "cover": "/assets/Project covers/BivoHome.png",
+            "description": "Description of project",
+            "tagline": "short sentence",
+            "color": "#afdece",
+            "url": "bivo"
+        },
+        {
+            "id": 5,
+            "title": "Kasa",
+            "cover": "/assets/Project covers/KasaHome.png",
+            "description": "Description of project",
+            "tagline": "short sentence",
+            "color": "#f7c2b5",
+            "url": "kasa"
+        }
+    ]

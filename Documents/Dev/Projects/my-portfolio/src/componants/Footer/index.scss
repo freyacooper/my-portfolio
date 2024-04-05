@@ -1,0 +1,117 @@
+.cta {
+        display: flex;
+        padding: 170px;
+        gap: 100px;
+        align-items: center;
+        div {
+            width: 42%;
+        }
+        p {
+            font-size: 20px;
+            padding: 20px 0 0 0;
+        }
+        button{
+            height: 70px;
+            padding: 0 80px;
+            font-family: syne;
+            font-size: 18px;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 50px;
+            margin-top: 20px;
+            background-color: #DEDEFF;
+            transition: box-shadow 400ms cubic-bezier(.18,.97,.53,1);
+            &:hover {
+                background: linear-gradient(133deg, rgba(222,222,255,1) 35%, rgba(148,241,246,1) 100%);
+                box-shadow: 2px 3px 23px 3px rgba(66, 68, 90, 0.14);
+            }
+        }
+        .image {
+            display: flex;
+           justify-content: flex-end;
+            img {
+                height: 450px;
+            }
+        }
+        @media screen and (max-width: 1000px) {
+
+        }
+    }
+
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    &-nav {
+        padding: 30px;
+        display: flex;
+        text-transform: uppercase;
+        gap: 40%;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+        text-wrap: nowrap;
+        a{
+            transition: color 400ms ease;
+            color: white;
+            text-decoration: none;
+            &:hover{
+                color: #a984cf;
+                cursor: pointer;
+            }
+        }
+    }
+    a {
+       svg {
+        color: white;
+        margin: 80px 0 80px 100px;
+        height: 70px;
+        transition: opacity 400ms ease;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    } 
+    }
+    
+    .socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        padding: 0 150px 0 0;
+        img {
+            height: 40px;
+            transition: filter 400ms ease;
+            &:hover {
+                filter: brightness(60%);
+                cursor: pointer;
+            }
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        &-nav {
+            padding: 20px;
+            gap: 15%;
+            font-size: 16px;
+            align-items: center;
+            justify-content: center;
+        } 
+        a {
+            svg {
+             margin: 50px 0 50px 0;
+             height: 50px;
+         } 
+        }
+        .socials {
+            gap: 20px;
+            padding: 0 100px 0 0;
+            img {
+                height: 30px;
+            }
+        }
+    }
+}
